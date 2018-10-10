@@ -236,6 +236,11 @@
 			attributes = {
 				LastUpgradeCheck = 0510;
 				ORGANIZATIONNAME = nito;
+				TargetAttributes = {
+					323932CE1993CF9F00BD549E = {
+						DevelopmentTeam = 32HNEEH56A;
+					};
+				};
 			};
 			buildConfigurationList = 323932CA1993CF9F00BD549E /* Build configuration list for PBXProject "ProvisioningProfileCleaner" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -378,8 +383,9 @@
 		323932DE1993CFA000BD549E /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CODE_SIGN_IDENTITY = "iPhone Distribution: GlobalMedia Group, LLC (3FA2E7UF68)";
+				CODE_SIGN_IDENTITY = "Developer ID Application";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: GlobalMedia Group, LLC (3FA2E7UF68)";
+				DEVELOPMENT_TEAM = 32HNEEH56A;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ProvisioningProfileCleaner/ProvisioningProfileCleaner-Prefix.pch";
 				PRODUCT_NAME = "$(TARGET_NAME)";
